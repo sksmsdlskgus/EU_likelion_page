@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="aastyle.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>2023학년도 을지대학교 신입생 OT</title>
+</head>
+
+<body>
+  <div class="major">
+    <div class="header">
+      <a href="index.html"><img id="logo" src="lolo.png"></img></a>
+      <!-- <div id="title_kor"><a href="./index.html"></a>멋쟁이사자처럼 을지대학교 11기</div>
+      <div id="title_eng">LIKELION EULJI UNIVERSITY 11th</div> -->
+      <p id="EU"><a href="main.html">Welcome, EU</a></p>
+      <p id="likelion"><a href="lionsogea.html"> <span style="color: #EE7F35"  > 멋쟁이사자처럼</span></a></p>
+    </div>
+
+    <div class="nav">
+      <p id="book">10기 활동 소개  🦁</p>
+      <div class="nav_right">
+      <p id="a">멋쟁이사자처럼</p>
+      <p id="b"><img src="direction.png"></img></p>
+      <p id="c">10기 활동 소개</p>
+    </div></div>
+
+
+    <div class="text">
+      지난 을지대학교 멋쟁이사자처럼은 10기부터 새롭게 활동을 진행하게 되었습니다. 멋쟁이사자처럼에서의 트랙 별 세션 진행을 통해 개발 지식을 얻었으며 아이디어톤, 해커톤, MOD와 이 외에도
+      </br>교내 프로젝트와 교내 활동을 통해 1년 동안 다양한 결과물을 만들어 냈습니다.
+    </div>
+
+    <div class="container">
+      <div class="box"><img src="box1.png"></img></div>
+      <div class="box"><img src="box2.png"></img></div>
+      <div class="box"><img src="box3.png"></img></div>
+      <div class="box"><br><img src="box4.png"></img></div>
+      <div class="box"><br><img src="box5.png"></img></div>
+      <div class="box"><br><img src="box6.png"></img></div>
+    </div>
+    <div class="fot">
+      <label for="slide1"></label>
+        <label for="slide2"></label>
+     
+    </div>
+  </div>
+  <div class="menu">
+
+    <div class="item">
+        <div class="sub-btn">
+            <i id="btn"><img src="멋쟁이사자처럼.png"></a></i>
+            <img id="rightV" src="rightV.png"></img>
+            <img id="line" src="line.png"></img>
+        </div>
+        <div class="sub-menu">
+            <a href="lionsogea.html" class="sub-item">멋쟁이사자처럼이란?</a>
+            <a href="ac.html" class="sub-item"><img src="10기 활동소개.png"></a></a>
+            <a href="yo.html" class="sub-item">11기 모집요강</a>
+        </div>
+    </div>
+
+
+    <div class="item">
+        <div class="sub-btn">
+            <i id="btn"><a href="https://forms.gle/F8u38FG5Hzhn8UKz9"><img src="지원하기.png"></a></i></br>
+            <img id="rightV" src="rightV.png" style="margin-top: -20px;"></img>
+            <img id="line" src="line.png"></img>
+        </div>
+    </div>
+  
+    <div class="item">
+      <div class="sub-btn">
+        <i id="btn"><a href="https://choihyojeong.github.io/EU_mbti/"><img style="width: 150px;" src="학과테스트 하러가기.png"></a></i></br>
+          <img id="rightV" src="rightV.png" style="margin-top: -20px;"></img>
+          <img id="line" src="line.png"></img>
+      </div>
+  </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.sub-btn').click(function () {
+                    $(this).next('.sub-menu').slideToggle();
+                    $(this).find('.dropdown').toggleClass('rotate');
+                });
+            });
+        </script>
+</body>
+</html>
